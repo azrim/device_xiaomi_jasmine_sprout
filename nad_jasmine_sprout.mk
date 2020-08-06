@@ -26,6 +26,7 @@ $(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 
 # Inherit Nusantara product configuration
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+$(call inherit-product-if-exists, packages/apps/NusantaraParts/nadproject.mk)
 
 # OFFICIAL Tag
 NAD_BUILD_TYPE := OFFICIAL

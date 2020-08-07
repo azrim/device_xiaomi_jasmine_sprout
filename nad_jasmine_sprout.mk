@@ -27,6 +27,9 @@ $(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 # Inherit Nusantara product configuration
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
+# OFFICIAL Tag
+NAD_BUILD_TYPE := OFFICIAL
+
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 

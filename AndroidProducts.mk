@@ -23,7 +23,9 @@
 
 # inherit MI A2 lineage device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_jasmine_sprout.mk
+    $(LOCAL_DIR)/nad_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_jasmine_sprout-userdebug
+    nad_jasmine_sprout-eng \
+    nad_jasmine_sprout-userdebug \
+    nad_jasmine_sprout-user

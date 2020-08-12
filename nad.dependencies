@@ -1,0 +1,32 @@
+[
+  { 
+    "remote":      "github",
+    "repository":  "azrim/device_xiaomi_sdm660-common",
+    "target_path": "device/xiaomi/sdm660-common",
+    "revision":    "10"
+  },
+  { 
+    "remote":      "github",
+    "repository":  "azrim/vendor_xiaomi_sdm660-common",
+    "target_path": "vendor/xiaomi/sdm660-common",
+    "revision":    "10"
+  },
+  { 
+    "remote":      "github",
+    "repository":  "azrim/vendor_xiaomi_wayne-common",
+    "target_path": "vendor/xiaomi/wayne-common",
+    "revision":    "10"
+  },
+  { 
+    "remote":      "github",
+    "repository":  "azrim/kernel_xiaomi_sdm660",
+    "target_path": "kernel/xiaomi/sdm660",
+    "revision":    "10"
+  },
+  {
+    "remote":      "github",
+    "repository":  "xiaomi-sdm660/android_vendor_xiaomi_Miuicamera",
+    "target_path": "vendor/xiaomi/MiuiCamera",
+    "revision":    "master"
+  }
+]

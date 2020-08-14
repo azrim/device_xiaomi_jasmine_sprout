@@ -30,6 +30,12 @@ $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 # OFFICIAL Tag
 NAD_BUILD_TYPE := OFFICIAL
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Pixel-charging
+USE_PIXEL_CHARGING := true
+
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 

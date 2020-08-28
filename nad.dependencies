@@ -40,5 +40,11 @@
     "repository":  "android_packages_apps_NusantaraPapers",
     "target_path": "packages/apps/NusantaraPapers",
     "branch":      "10"
-    }
+  },
+  {
+    "remote":      "github",
+    "repository":  "silont-project/silont-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-silont",
+    "branch":      "master"
+  }
 ]

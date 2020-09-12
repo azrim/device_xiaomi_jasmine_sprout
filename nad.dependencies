@@ -25,9 +25,9 @@
   },
   {
     "remote":      "github",
-    "repository":  "xiaomi-sdm660/android_vendor_xiaomi_Miuicamera",
+    "repository":  "azrim/vendor_Miuicamera",
     "target_path": "vendor/xiaomi/MiuiCamera",
-    "revision":    "master"
+    "revision":    "10"
   },
   {
     "remote":      "priv",
